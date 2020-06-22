@@ -187,6 +187,10 @@ String SystemInfoPluginAudioProcessorEditor::getAllSystemInfo()
         << "Platform prefix: " << OnlineUnlockStatus::MachineIDUtilities::getPlatformPrefix() << newLine
         << newLine;
 
+    systemInfo
+        << "ENV: Path: " << SystemStats::getEnvironmentVariable("Path", "Undefined") << newLine
+        << newLine;
+
     DBG(systemInfo);
     return systemInfo;
 }
