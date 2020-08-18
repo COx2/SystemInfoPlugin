@@ -22,6 +22,11 @@ SystemInfoPluginAudioProcessorEditor::SystemInfoPluginAudioProcessorEditor (Syst
     resultsBox.setFont({ Font::getDefaultMonospacedFontName(), 12.0f, Font::plain });
     resultsBox.setText(getAllSystemInfo());
 
+    addAndMakeVisible(copyToClipboardButton);
+    copyToClipboardButton.onClick = [this]() {
+        SystemClipboard::copyTextToClipboard(resultsBox.getText());
+    };
+
     setSize(800, 600);
 }
 
@@ -100,7 +105,6 @@ String SystemInfoPluginAudioProcessorEditor::getDisplayInfo()
 }
 
 String SystemInfoPluginAudioProcessorEditor::getAllSystemInfo()
-
 {
     String systemInfo;
 
@@ -209,6 +213,11 @@ void SystemInfoPluginAudioProcessorEditor::paint(Graphics& g)
 
 void SystemInfoPluginAudioProcessorEditor::resized()
 {
-    resultsBox.setBounds(getLocalBounds().reduced(8));
+    auto reduce_pix = 8;
+    auto area = getLocalBounds().reduced(reduce_pix);
+    auto rb_h = area.getHeight() * 0.95;
+    auto cpb_h = area.getHeight() * 0.05;
+    resultsBox.setBounds(area.removeFromTop(rb_h).withTrimmedBottom(reduce_pix / 2));
+    copyToClipboardButton.setBounds(area.withTrimmedTop(reduce_pix / 2));
 }
 

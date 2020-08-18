@@ -40,6 +40,7 @@ private:
 
     //==============================================================================
     TextEditor resultsBox;
+    TextButton copyToClipboardButton{"Copy to Clipboard"};
 
     SystemInfoPluginAudioProcessor& processor;
 
