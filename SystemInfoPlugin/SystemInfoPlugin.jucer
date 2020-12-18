@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="QnBmFt" name="SystemInfoPlugin" projectType="audioplug" jucerVersion="5.4.7"
-              pluginFormats="buildStandalone,buildVST3">
+<JUCERPROJECT id="QnBmFt" name="SystemInfoPlugin" projectType="audioplug" pluginFormats="buildStandalone,buildVST3"
+              jucerFormatVersion="1">
   <MAINGROUP id="l7oKxA" name="SystemInfoPlugin">
     <GROUP id="{B989C456-5C2E-C0E0-D565-BF60FCC88C04}" name="Source">
       <FILE id="VlmSE4" name="PluginProcessor.cpp" compile="1" resource="0"

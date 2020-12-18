@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Icon.icns</key>
 		<data>
-		f704RemCzQA1oMB12Oq2/TirQw0=
+		qr57CxxkBrNP5GedCw9NLWjJfBU=
 		</data>
 		<key>Resources/RecentFilesMenuTemplate.nib</key>
 		<data>
@@ -15,24 +15,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>JUCECompileEngine.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			KbbI4es0vvxSXvntOiDBLS7zyBA=
-			</data>
-			<key>requirement</key>
-			<string>anchor apple generic and identifier JUCECompileEngine and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = S5LKE7JNDX)</string>
-		</dict>
 		<key>Resources/Icon.icns</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f704RemCzQA1oMB12Oq2/TirQw0=
+			qr57CxxkBrNP5GedCw9NLWjJfBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			5nTweVzw0cpQpHOiU8CqHWrT3F6Lx6anzLmxHATYxvQ=
+			RxeMtCrz8TYtzGWCmcZ5Q4ux2Q01ecRpkjG9kABVvxQ=
 			</data>
 		</dict>
 		<key>Resources/RecentFilesMenuTemplate.nib</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18G1012</string>
+	<string>19H15</string>
 	<key>CFBundleDisplayName</key>
 	<string>Projucer</string>
 	<key>CFBundleDocumentTypes</key>
@@ -34,7 +34,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>5.4.7</string>
+	<string>6.0.5</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -42,21 +42,23 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>5.4.7</string>
+	<string>6.0.5</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11C504</string>
+	<string>12B45b</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>GM</string>
+	<string>11.0</string>
 	<key>DTSDKBuild</key>
-	<string>19B90</string>
+	<string>20A2408</string>
 	<key>DTSDKName</key>
-	<string>macosx10.15</string>
+	<string>macosx11.0</string>
 	<key>DTXcode</key>
-	<string>1131</string>
+	<string>1220</string>
 	<key>DTXcodeBuild</key>
-	<string>11C504</string>
+	<string>12B45b</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.11</string>
 	<key>NSCameraUsageDescription</key>
@@ -64,7 +66,7 @@
 	<key>NSHighResolutionCapable</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>ROLI Ltd.</string>
+	<string>Raw Material Software Limited</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>This app requires audio input. If you do not have an audio interface connected it will use the built-in microphone.</string>
 </dict>
